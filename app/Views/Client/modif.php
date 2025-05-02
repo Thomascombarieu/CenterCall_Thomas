@@ -20,7 +20,7 @@
         ?>
     </select>
     <div class="form-client">
-        <label class="required">Raison Sociales</label>
+        <label class="required">Raison Sociale</label>
         <input type="text" id="RAISON_SOCIALE" name="RAISON_SOCIALE" value="<?= $client['RAISON_SOCIALE'] ?>" required>
 
         <label class="required">Nom</label>
