@@ -11,7 +11,12 @@
     ?>
 </div>
 
+
+
 <?php
+
+// Modif Tableau gestion campagne
+
 $table = new \CodeIgniter\View\Table();
 $table->setHeading(['Titre Campagne','Evènements','Voir Campagne', 'Modifier']);
 
