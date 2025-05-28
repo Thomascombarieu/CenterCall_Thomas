@@ -13,6 +13,13 @@
     <textarea id="LIBELLE" name="LIBELLE" placeholder="Tapez votre descriptif" minlength="3" maxlength="255"
         required size="255"></textarea>
 
+   <?php 
+   // Modif Formulaire création
+   ?> 
+    <label class="required" for="EVENEMENT">Evènements</label>
+    <input type="text" id="EVENEMENT" name="EVENEMENT" placeholder="Saisissez l'évènement'" required minlength="3"
+        maxlength="40" size="50">
+
     <label class="required" for="DATE">Date</label>
     <input type="date" id="DATE" name="DATE" value="<?= date('Y-m-d') ?>" min="<?= date('Y-m-d') ?>" max="2026-12-31"
         required />
