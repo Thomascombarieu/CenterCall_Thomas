@@ -16,6 +16,17 @@
     <textarea id="LIBELLE" name="LIBELLE" minlength="3" maxlength="255" size="255"
         required><?= $campagne['LIBELLE'] ?></textarea>
 
+
+    <?php 
+   // Modif Formulaire création
+   ?> 
+
+    <label class="required" for="EVENEMENT">Evènements</label>
+    
+    <input type="text" id="EVENEMENT" name="EVENEMENT" placeholder="Saisissez l'évènement'" required minlength="3"
+        maxlength="40" size="50">
+
+
     <label class="required" for="start">Date</label>
 
     <input type="date" id="DATE" name="DATE" value="<?= $campagne['DATE'] ?>" min="<?= $campagne['DATE'] ?>"
