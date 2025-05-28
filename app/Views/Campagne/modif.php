@@ -24,7 +24,7 @@
     <label class="required" for="EVENEMENT">Evènements</label>
     
     <input type="text" id="EVENEMENT" name="EVENEMENT" placeholder="Saisissez l'évènement'" required minlength="3"
-        maxlength="40" size="50"  required><?= $campagne['EVENEMENT'] ?></textarea>
+        maxlength="40" size="50"required><?= $campagne['EVENEMENT'] ?>
 
 
     <label class="required" for="start">Date</label>
