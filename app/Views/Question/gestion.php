@@ -6,6 +6,7 @@
     <p class="campagne-titre"><?= $campagne['TITRE'] ?></p>
     <p class="campagne-date"><?= $campagne['DATE'] ?></p>
     <p class="campagne-libelle"><?= $campagne['LIBELLE'] ?></p>
+    <p class="campagne-evenement"><?= $campagne['EVENEMENT'] ?></p>
 </div>
 <div class="button-container">
     <a class="button button-ajout" href="<?= url_to('creation_question_get', $campagne['ID_CAMPAGNE']) ?>">Nouvelle
