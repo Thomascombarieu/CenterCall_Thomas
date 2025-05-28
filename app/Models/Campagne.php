@@ -12,7 +12,7 @@ class Campagne extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = false;
     protected $protectFields = true;
-    protected $allowedFields = ['ID_CLIENT', 'DATE', 'TITRE', 'LIBELLE', 'CONTACTS'];
+    protected $allowedFields = ['ID_CLIENT', 'DATE', 'TITRE', 'LIBELLE', 'CONTACTS','EVENEMENT'];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
