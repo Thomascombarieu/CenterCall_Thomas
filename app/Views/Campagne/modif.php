@@ -23,7 +23,7 @@
 
     <label class="required" for="EVENEMENT">Evènements</label>
     
-    <input type="text" id="EVENEMENT" name="EVENEMENT"required value="<?= $campagne['TITRE'] ?>"placeholder="Saisissez l'évènement'" required minlength="3"
+    <input type="text" id="EVENEMENT" name="EVENEMENT"required value="<?= $campagne['EVENEMENT'] ?>"minlength="3"
         maxlength="40" size="50"required><?= $campagne['EVENEMENT'] ?>
 
 
