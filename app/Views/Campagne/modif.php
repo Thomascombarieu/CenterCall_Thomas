@@ -14,7 +14,7 @@
 
     <label class="required" for="LIBELLE">Texte descriptif</label>
     <textarea id="LIBELLE" name="LIBELLE" minlength="3" maxlength="255" size="255"
-        required>
+        required><?= $campagne['LIBELLE'] ?></textarea>
 
 
     <?php 
@@ -23,8 +23,8 @@
 
     <label class="required" for="EVENEMENT">Evènements</label>
     
-    <input type="text" id="EVENEMENT" name="EVENEMENT"minlength="3"
-        maxlength="40" size="50"required><?= $campagne['EVENEMENT'] ?>
+    <input type="text" id="EVENEMENT" name="EVENEMENT" placeholder="Saisissez l'évènement'" required minlength="3"
+        maxlength="40" size="50" >
 
 
     <label class="required" for="start">Date</label>
