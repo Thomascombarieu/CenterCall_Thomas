@@ -13,7 +13,7 @@
 
 <?php
 $table = new \CodeIgniter\View\Table();
-$table->setHeading(['Titre Campagne', 'Voir Campagne', 'Modifier']);
+$table->setHeading(['Titre Campagne','Evènements','Voir Campagne', 'Modifier']);
 
 foreach ($listeCampagnes as $campagne) {
 
