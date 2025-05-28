@@ -24,7 +24,7 @@ foreach ($listeCampagnes as $campagne) {
 
     $table->addRow(
         $campagne['TITRE'],
-        '<a></a>',
+        $campagne['EVENEMENT'],
         '<a><button class="button button-voir-campagne">Voir</button></a>',
         '<a href="' . url_to('modif_campagne_get', $campagne['ID_CAMPAGNE']) . '"><button class="button button-modifier">Modifier</button></a>'
     );
