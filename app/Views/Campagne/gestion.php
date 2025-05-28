@@ -18,13 +18,14 @@
 // Modif Tableau gestion campagne
 
 $table = new \CodeIgniter\View\Table();
-$table->setHeading(['Titre Campagne','Evènements','Voir Campagne', 'Modifier']);
+$table->setHeading(['Titre Campagne','Evènements','Nombre de Question','Voir Campagne', 'Modifier']);
 
 foreach ($listeCampagnes as $campagne) {
 
     $table->addRow(
         $campagne['TITRE'],
         $campagne['EVENEMENT'],
+        '<a></a>',
         '<a><button class="button button-voir-campagne">Voir</button></a>',
         '<a href="' . url_to('modif_campagne_get', $campagne['ID_CAMPAGNE']) . '"><button class="button button-modifier">Modifier</button></a>'
     );
